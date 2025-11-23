@@ -1,0 +1,407 @@
+{
+  "goalkeepers": {
+    "1": {
+      "attack": 15,
+      "defence": 90,
+      "technique": 60,
+      "total": 65,
+      "ease_of_play": 50
+    },
+    "2": {
+      "attack": 20,
+      "defence": 88,
+      "technique": 62,
+      "total": 64,
+      "ease_of_play": 52
+    },
+    "3": {
+      "attack": 18,
+      "defence": 85,
+      "technique": 58,
+      "total": 63,
+      "ease_of_play": 48
+    },
+    "4": {
+      "attack": 17,
+      "defence": 87,
+      "technique": 61,
+      "total": 64,
+      "ease_of_play": 49
+    },
+    "5": {
+      "attack": 19,
+      "defence": 86,
+      "technique": 59,
+      "total": 63,
+      "ease_of_play": 50
+    }
+  },
+  "right_backs": {
+    "6": {
+      "attack": 40,
+      "defence": 85,
+      "technique": 70,
+      "total": 75,
+      "ease_of_play": 60
+    },
+    "7": {
+      "attack": 42,
+      "defence": 83,
+      "technique": 68,
+      "total": 74,
+      "ease_of_play": 61
+    },
+    "8": {
+      "attack": 38,
+      "defence": 88,
+      "technique": 65,
+      "total": 75,
+      "ease_of_play": 62
+    },
+    "9": {
+      "attack": 41,
+      "defence": 84,
+      "technique": 69,
+      "total": 74,
+      "ease_of_play": 63
+    },
+    "10": {
+      "attack": 39,
+      "defence": 86,
+      "technique": 67,
+      "total": 75,
+      "ease_of_play": 60
+    }
+  },
+  "left_backs": {
+    "11": {
+      "attack": 37,
+      "defence": 87,
+      "technique": 66,
+      "total": 74,
+      "ease_of_play": 62
+    },
+    "12": {
+      "attack": 36,
+      "defence": 85,
+      "technique": 68,
+      "total": 73,
+      "ease_of_play": 61
+    },
+    "13": {
+      "attack": 35,
+      "defence": 88,
+      "technique": 65,
+      "total": 74,
+      "ease_of_play": 60
+    },
+    "14": {
+      "attack": 38,
+      "defence": 86,
+      "technique": 67,
+      "total": 74,
+      "ease_of_play": 62
+    },
+    "15": {
+      "attack": 37,
+      "defence": 84,
+      "technique": 66,
+      "total": 73,
+      "ease_of_play": 61
+    }
+  },
+  "center_backs": {
+    "16": {
+      "attack": 40,
+      "defence": 87,
+      "technique": 70,
+      "total": 76,
+      "ease_of_play": 62
+    },
+    "17": {
+      "attack": 39,
+      "defence": 85,
+      "technique": 68,
+      "total": 74,
+      "ease_of_play": 61
+    },
+    "18": {
+      "attack": 38,
+      "defence": 86,
+      "technique": 69,
+      "total": 74,
+      "ease_of_play": 60
+    },
+    "19": {
+      "attack": 37,
+      "defence": 88,
+      "technique": 67,
+      "total": 74,
+      "ease_of_play": 62
+    },
+    "20": {
+      "attack": 36,
+      "defence": 84,
+      "technique": 66,
+      "total": 73,
+      "ease_of_play": 61
+    }
+  },
+  "defensive_midfielders": {
+    "21": {
+      "attack": 65,
+      "defence": 75,
+      "technique": 80,
+      "total": 74,
+      "ease_of_play": 68
+    },
+    "22": {
+      "attack": 66,
+      "defence": 74,
+      "technique": 79,
+      "total": 73,
+      "ease_of_play": 67
+    },
+    "23": {
+      "attack": 67,
+      "defence": 73,
+      "technique": 78,
+      "total": 72,
+      "ease_of_play": 66
+    },
+    "24": {
+      "attack": 68,
+      "defence": 72,
+      "technique": 77,
+      "total": 71,
+      "ease_of_play": 65
+    },
+    "25": {
+      "attack": 69,
+      "defence": 71,
+      "technique": 76,
+      "total": 70,
+      "ease_of_play": 64
+    }
+  },
+  "central_midfielders": {
+    "26": {
+      "attack": 70,
+      "defence": 65,
+      "technique": 80,
+      "total": 72,
+      "ease_of_play": 66
+    },
+    "27": {
+      "attack": 71,
+      "defence": 64,
+      "technique": 79,
+      "total": 71,
+      "ease_of_play": 65
+    },
+    "28": {
+      "attack": 72,
+      "defence": 63,
+      "technique": 78,
+      "total": 70,
+      "ease_of_play": 64
+    },
+    "29": {
+      "attack": 73,
+      "defence": 62,
+      "technique": 77,
+      "total": 70,
+      "ease_of_play": 63
+    },
+    "30": {
+      "attack": 74,
+      "defence": 61,
+      "technique": 76,
+      "total": 70,
+      "ease_of_play": 62
+    }
+  },
+  "attacking_midfielders": {
+    "31": {
+      "attack": 80,
+      "defence": 55,
+      "technique": 85,
+      "total": 72,
+      "ease_of_play": 68
+    },
+    "32": {
+      "attack": 81,
+      "defence": 54,
+      "technique": 84,
+      "total": 71,
+      "ease_of_play": 67
+    },
+    "33": {
+      "attack": 82,
+      "defence": 53,
+      "technique": 83,
+      "total": 70,
+      "ease_of_play": 66
+    },
+    "34": {
+      "attack": 83,
+      "defence": 52,
+      "technique": 82,
+      "total": 70,
+      "ease_of_play": 65
+    },
+    "35": {
+      "attack": 84,
+      "defence": 51,
+      "technique": 81,
+      "total": 70,
+      "ease_of_play": 64
+    }
+  },
+  "right_wings": {
+    "36": {
+      "attack": 88,
+      "defence": 40,
+      "technique": 87,
+      "total": 71,
+      "ease_of_play": 65
+    },
+    "37": {
+      "attack": 89,
+      "defence": 39,
+      "technique": 86,
+      "total": 70,
+      "ease_of_play": 64
+    },
+    "38": {
+      "attack": 90,
+      "defence": 38,
+      "technique": 85,
+      "total": 70,
+      "ease_of_play": 63
+    },
+    "39": {
+      "attack": 91,
+      "defence": 37,
+      "technique": 84,
+      "total": 69,
+      "ease_of_play": 62
+    },
+    "40": {
+      "attack": 92,
+      "defence": 36,
+      "technique": 83,
+      "total": 69,
+      "ease_of_play": 61
+    }
+  },
+  "left_wings": {
+    "41": {
+      "attack": 85,
+      "defence": 35,
+      "technique": 82,
+      "total": 68,
+      "ease_of_play": 60
+    },
+    "42": {
+      "attack": 84,
+      "defence": 34,
+      "technique": 81,
+      "total": 68,
+      "ease_of_play": 59
+    },
+    "43": {
+      "attack": 83,
+      "defence": 33,
+      "technique": 80,
+      "total": 67,
+      "ease_of_play": 58
+    },
+    "44": {
+      "attack": 82,
+      "defence": 32,
+      "technique": 79,
+      "total": 66,
+      "ease_of_play": 57
+    },
+    "45": {
+      "attack": 81,
+      "defence": 31,
+      "technique": 78,
+      "total": 66,
+      "ease_of_play": 56
+    }
+  },
+  "forwards": {
+    "46": {
+      "attack": 92,
+      "defence": 34,
+      "technique": 88,
+      "total": 71,
+      "ease_of_play": 65
+    },
+    "47": {
+      "attack": 90,
+      "defence": 33,
+      "technique": 87,
+      "total": 70,
+      "ease_of_play": 64
+    },
+    "48": {
+      "attack": 91,
+      "defence": 32,
+      "technique": 86,
+      "total": 70,
+      "ease_of_play": 63
+    },
+    "49": {
+      "attack": 89,
+      "defence": 31,
+      "technique": 85,
+      "total": 69,
+      "ease_of_play": 62
+    },
+    "50": {
+      "attack": 88,
+      "defence": 30,
+      "technique": 84,
+      "total": 69,
+      "ease_of_play": 61
+    },
+    "51": {
+      "attack": 87,
+      "defence": 29,
+      "technique": 83,
+      "total": 68,
+      "ease_of_play": 60
+    },
+    "52": {
+      "attack": 86,
+      "defence": 28,
+      "technique": 82,
+      "total": 68,
+      "ease_of_play": 59
+    },
+    "53": {
+      "attack": 85,
+      "defence": 27,
+      "technique": 81,
+      "total": 67,
+      "ease_of_play": 58
+    },
+    "54": {
+      "attack": 84,
+      "defence": 26,
+      "technique": 80,
+      "total": 66,
+      "ease_of_play": 57
+    },
+    "55": {
+      "attack": 83,
+      "defence": 25,
+      "technique": 79,
+      "total": 66,
+      "ease_of_play": 56
+    }
+  }
+}
