@@ -186,8 +186,14 @@ def shoot(ball, team_1, team_2, score):
             b = randint(1, 100)
             if b <= 80:
                 print("Удар в створ!")
+                ball = 2
+                team_1[now_ball_player]['status_ball'] = False
+                team_2[list(team_2.keys())[1]]['status_ball'] = True
             else:
                 print("Мимо!")
+                ball = 2
+                team_1[now_ball_player]['status_ball'] = False
+                team_2[list(team_2.keys())[1]]['status_ball'] = True
                 return score
             c = randint(1, 100)
             if c <= 10:
@@ -226,8 +232,14 @@ def shoot(ball, team_1, team_2, score):
             b = randint(1, 100)
             if b <= 80:
                 print("Удар в створ!")
+                team_2[now_ball_player]['status_ball'] = False
+                team_1[list(team_1.keys())[1]]['status_ball'] = True
+                ball = 1
             else:
                 print("Мимо!")
+                ball = 1
+                team_2[now_ball_player]['status_ball'] = False
+                team_1[list(team_1.keys())[1]]['status_ball'] = True
                 return score
             c = randint(1, 100)
             if c <= 10:
@@ -252,7 +264,60 @@ def shoot(ball, team_1, team_2, score):
                 print("Вратарь отбил!")
                 return score
 
-        # shot_chance = (
-        #     team_1[now_ball_player]['attack']
-        #     + team_1[now_ball_player]['technique']
-        # ) / 2
+def defence(ball, team_1, team_2):
+    if ball == 1:
+        now_ball_player = None
+        for key in team_1.keys():
+            if team_1[key]['status_ball'] == True:
+                now_ball_player = key
+        for key in list(team_2.keys())[1:7]:
+            a = randint(1,100)
+            b = randint(1,100)
+            if (
+                a<=60 and (b<=(70+(team_2[key]['defence'] - team_1[now_ball_player]['attack'])))
+                and (
+                    now_ball_player in players['defensive_midfielders'].keys()
+                    or now_ball_player in players['central_midfielders'].keys()
+                    or now_ball_player in players['attacking_midfielders'].keys()
+                    or now_ball_player in players['right_wings'].keys()
+                    or now_ball_player in players['left_wings'].keys()
+                    or now_ball_player in players['forwards'].keys()
+                    )
+            ):
+                print(f'Отличная игра, игрок {key} из команды 2 отбирает мяч у игрока {now_ball_player}')
+                team_1[now_ball_player]['status_ball'] = False
+                team_2[key]['status_ball'] = True
+                ball = 2
+                break
+            elif a<=60:
+                print(f'Отличная игра, игрок {now_ball_player} из команды 1 обводит игрока {key}')
+    else:
+        now_ball_player = None
+        for key in team_2.keys():
+            if team_2[key]['status_ball'] == True:
+                now_ball_player = key
+        for key in list(team_1.keys())[1:7]:
+            a = randint(1,100)
+            b = randint(1,100)
+            if (
+                a<=60 and (b<=(70+(team_1[key]['defence'] - team_2[now_ball_player]['attack'])))
+                and (
+                    now_ball_player in players['defensive_midfielders'].keys()
+                    or now_ball_player in players['central_midfielders'].keys()
+                    or now_ball_player in players['attacking_midfielders'].keys()
+                    or now_ball_player in players['right_wings'].keys()
+                    or now_ball_player in players['left_wings'].keys()
+                    or now_ball_player in players['forwards'].keys()
+                    )
+            ):
+                print(f'Отличная игра, игрок {key} из команды 2 отбирает мяч у игрока {now_ball_player}')
+                team_2[now_ball_player]['status_ball'] = False
+                team_1[key]['status_ball'] = True
+                ball = 2
+                break
+            elif a<=60:
+                print(f'Отличная игра, игрок {now_ball_player} из команды 1 обводит игрока {key}')
+
+
+
+

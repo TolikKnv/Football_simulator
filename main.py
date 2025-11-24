@@ -40,3 +40,4 @@ s = 0
 while s!=90:
     pass_ball(ball, team_1, team_2)
     shoot(ball, team_1, team_2, score)
+    defence(ball, team_1, team_2)
